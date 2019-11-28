@@ -1,4 +1,8 @@
-# Face Recognition Using Pytorch 
+# Face Recognition Using One Shot Learning (Siamese network) and Model based (PCA) with FaceNet_Pytorch 
+
+Refer to the report for results! 
+
+
 [![Downloads](https://pepy.tech/badge/facenet-pytorch)](https://pepy.tech/project/facenet-pytorch)
 
 [![Code Coverage](https://img.shields.io/codecov/c/github/timesler/facenet-pytorch.svg)](https://codecov.io/gh/timesler/facenet-pytorch)
