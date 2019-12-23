@@ -4,20 +4,7 @@ Refer to the [report](https://github.com/AravindChandradoss/facenet-pytorch/blob
 https://aravindchandradoss.github.io/facenet-pytorch/
 
 
-
-| System | Python | |
-| :---: | :---: | :---: |
-| Linux | 3.5, 3.6, 3.7 | [![Build Status](https://travis-ci.com/timesler/facenet-pytorch.svg?branch=master)](https://travis-ci.com/timesler/facenet-pytorch) |
-| macOS | 3.6, 3.7 | [![Build Status](https://travis-ci.com/timesler/facenet-pytorch.svg?branch=master)](https://travis-ci.com/timesler/facenet-pytorch) |
-| Windows | 3.5, 3.6, 3.7 | [![Build Status](https://travis-ci.com/timesler/facenet-pytorch.svg?branch=master)](https://travis-ci.com/timesler/facenet-pytorch) |
-
-This is a repository for Inception Resnet (V1) models in pytorch, pretrained on VGGFace2 and CASIA-Webface.
-
-Pytorch model weights were initialized using parameters ported from David Sandberg's [tensorflow facenet repo](https://github.com/davidsandberg/facenet).
-
-Also included in this repo is an efficient pytorch implementation of MTCNN for face detection prior to inference. These models are also pretrained.
-
-### This repo is build on top of [facenet-pytorch](https://github.com/timesler/facenet-pytorch)
+### This repo is build on top of [facenet-pytorch](https://github.com/timesler/facenet-pytorch) and [tensorflow-facenet](https://github.com/davidsandberg/facenet)
 
 ## Quick start
 
