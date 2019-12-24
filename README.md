@@ -1,12 +1,38 @@
 # Face Recognition Using One Shot Learning (Siamese network) and Model based (PCA) with FaceNet_Pytorch 
 
-### Refer to the https://docs.google.com/viewer?url=https://github.com/AravindChandradoss/facenet-pytorch/blob/master/CV_P4/Report.pdf [report](https://github.com/AravindChandradoss/facenet-pytorch/blob/master/CV_P4/Report.pdf) for results! 
+### Refer to the [report](https://github.com/AravindChandradoss/facenet-pytorch/blob/master/CV_P4/Report.pdf) for results! 
 https://aravindchandradoss.github.io/facenet-pytorch/
 
 
 ## This repo is build on top of [facenet-pytorch](https://github.com/timesler/facenet-pytorch) and [tensorflow-facenet](https://github.com/davidsandberg/facenet)
 
 ## Quick start
+you can directly use the embedded data (`embedname.npy` : label and `embedimg.npy` : embedded image features) by running `python run.py` (step 4) and check the results, or else you can setup FaceNet and use your own data. 
+
+1. Either install using pip:
+    ```bash
+    pip install facenet-pytorch
+    ```
+    or clone this repo, removing the '-' to allow python imports:
+    ```bash
+    git clone https://github.com/AravindChandradoss/facenet-pytorch.git facenet_pytorch
+    ```
+1. If you are cloning, make sure to have the ROOT of the clone repo in you PYTHONPATH
+    ```bash
+    export PYTHONPATH=/path/to/root/of/facenet_pytorch
+    ```
+1. Run `preprocess.py` and `emb.py` to preprocess and embed the images
+    ```bash
+    python preprocess.py
+    python emb.py
+    ```
+    This will create `embedname.npy` (label) and `embedimg.npy` (embedded image features)
+1. Now, run `run.py` 
+    ```bash
+    python run.py
+    ```
+    
+## Setting up FaceNet-Pytorch
 
 1. Either install using pip:
     ```bash
