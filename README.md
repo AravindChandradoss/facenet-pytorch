@@ -23,12 +23,14 @@ you can directly use the embedded data (`embedname.npy` : label and `embedimg.np
     ```
 1. Run `preprocess.py` and `emb.py` to preprocess and embed the images
     ```bash
+    cd CV_P4
     python preprocess.py
     python emb.py
     ```
     This will create `embedname.npy` (label) and `embedimg.npy` (embedded image features)
 1. Now, run `run.py` 
     ```bash
+    cd CV_P4
     python run.py
     ```
     
