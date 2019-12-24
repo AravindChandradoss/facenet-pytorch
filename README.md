@@ -1,6 +1,6 @@
 # Face Recognition Using One Shot Learning (Siamese network) and Model based (PCA) with FaceNet_Pytorch 
 
-### Refer to the [report](https://github.com/AravindChandradoss/facenet-pytorch/blob/master/CV_P4/Report.pdf) for results! 
+### Refer to the https://docs.google.com/viewer?url=${https://github.com/AravindChandradoss/facenet-pytorch/blob/master/CV_P4/Report.pdf} [report](https://github.com/AravindChandradoss/facenet-pytorch/blob/master/CV_P4/Report.pdf) for results! 
 https://aravindchandradoss.github.io/facenet-pytorch/
 
 
